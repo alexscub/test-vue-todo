@@ -17,9 +17,9 @@
           type="text"
           placeholder="input todo"
         />
-        <button class="form__delButton" @click="del(index)">Delete todo</button>
+        <button type="button" class="form__delButton" @click="del(index)">Delete todo</button>
       </div>
-      <button class="mb" @click="add()">Add todo</button>
+      <button type="button" class="mb" @click="add()">Add todo</button>
     </form>
     <button @click="addNote()">Add note</button>
   </popup>

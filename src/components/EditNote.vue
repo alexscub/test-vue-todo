@@ -17,7 +17,7 @@
             type="text"
             placeholder="input todo"
           />
-          <button class="form__delButton" @click="del(index)">
+          <button type="button" class="form__delButton" @click="del(index)">
             Delete todo
           </button>
         </div>
